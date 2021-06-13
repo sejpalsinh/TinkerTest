@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e09b78d-84e2-44f4-a254-cb61aa7f132f" name="Default Changelist" comment="" />
+    <list default="true" id="5e09b78d-84e2-44f4-a254-cb61aa7f132f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/checked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/uncheck.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/unchecked.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tinkerdemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/tinkerdemo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkintercomponents.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkintercomponents.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +22,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1tnzf1piy5B4oAKdGaj5I79ea97" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,6 +37,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sejpa\PycharmProjects\TinkerTest\images" />
+      <recent name="C:\Users\sejpa\PycharmProjects\TinkerTest" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.tinkerdemo">
     <configuration name="execonvert" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -91,8 +112,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.tinkerdemo" />
-        <item itemvalue="Python.execonvert" />
         <item itemvalue="Python.tkintercomponents" />
+        <item itemvalue="Python.execonvert" />
       </list>
     </recent_temporary>
   </component>
@@ -106,5 +127,16 @@
       <updated>1623419745329</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
