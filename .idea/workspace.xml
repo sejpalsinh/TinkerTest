@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e09b78d-84e2-44f4-a254-cb61aa7f132f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/checked.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/uncheck.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/unchecked.png" afterDir="false" />
+    <list default="true" id="5e09b78d-84e2-44f4-a254-cb61aa7f132f" name="Default Changelist" comment="tale">
+      <change afterPath="$PROJECT_DIR$/adduser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uioprations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/checked.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/checked.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/unchecked.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tinkerdemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/tinkerdemo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tkintercomponents.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkintercomponents.py" afterDir="false" />
     </list>
@@ -25,6 +26,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1tnzf1piy5B4oAKdGaj5I79ea97" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,7 +46,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings sdk-home="C:\Users\sejpa\AppData\Local\Programs\Python\Python38-32\python.exe">
+        <option name="mySdkHome" value="C:\Users\sejpa\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -45,7 +61,28 @@
       <recent name="C:\Users\sejpa\PycharmProjects\TinkerTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tinkerdemo">
+  <component name="RunManager" selected="Python.adduser">
+    <configuration name="adduser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\sejpa\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/adduser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="execonvert" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TinkerTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,39 +104,39 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tinkerdemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TinkerTest" />
+    <configuration name="tinkerdemo" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\sejpa\AppData\Local\Programs\Python\Python38-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tinkerdemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="tkintercomponents" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TinkerTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\sejpa\AppData\Local\Programs\Python\Python38-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tkintercomponents.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -111,7 +148,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tinkerdemo" />
+        <item itemvalue="Python.adduser" />
         <item itemvalue="Python.tkintercomponents" />
         <item itemvalue="Python.execonvert" />
       </list>
@@ -126,6 +163,14 @@
       <option name="presentableId" value="Default" />
       <updated>1623419745329</updated>
     </task>
+    <task id="LOCAL-00001" summary="tale">
+      <created>1623583357011</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623583357011</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,5 +183,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tale" />
+    <option name="LAST_COMMIT_MESSAGE" value="tale" />
   </component>
 </project>
