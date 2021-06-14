@@ -18,9 +18,8 @@ class Table:
         for row in range(total_rows):
             self.treetable.insert("", 'end', values=datalst[row])
 
-
 class CheckboxTable:
-    def __init__(self,root,headers,uncheckImg,checkImg,rowNum,colNum,pdNum=0,csp=1,datalst=[],colWidth=90):
+    def __init__(self,root,headers,uncheckImg,checkImg,xPos,yPos,datalst=[],colWidth=90):
         self.checkedImg = checkImg
         self.selectedUsers = []
         self.uncheckedImg = uncheckImg
@@ -37,10 +36,10 @@ class CheckboxTable:
             self.treetable.heading(header, text=headers[headerCounter])
             self.treetable.column(header, width=colWidth, anchor='c')
             headerCounter = headerCounter + 1
-        self.treetable.grid(row=rowNum,column=colNum, pady=pdNum,columnspan=csp)
+        self.treetable.place(x=xPos,y=yPos)
         verscrlbar = ttk.Scrollbar(root, orient="vertical", command=self.treetable.yview)
-        verscrlbar.grid(row=rowNum,column=colNum+csp, pady=pdNum)
-        self.treetable.configure(xscrollcommand=verscrlbar.set)
+        verscrlbar.place(x=xPos+80+(colWidth*total_columns),y=yPos,height=225)
+        self.treetable.configure(yscrollcommand=verscrlbar.set)
         for data in datalst:
             self.treetable.insert('', 'end', values=tuple(data), image=self.uncheckedImg,tag="unchecked")
 
@@ -56,8 +55,7 @@ class CheckboxTable:
             self.selectedUsers.remove(self.treetable.item(selecteditem, "values")[0])
         self.prinSelectedUser()
 
-    def adduser(self,id,password,pin):
-        userdata = (id,password,pin)
+    def addData(self,userdata):
         self.treetable.insert('', 'end', values=userdata, image=self.uncheckedImg,tag="unchecked")
 
     def clearTable(self):
@@ -102,6 +100,9 @@ class InputEntry:
 
     def setGride(self,rowNum,colNum, pdNum = 1,columnspanNum=1):
         self.entryVar.grid(row=rowNum,column=colNum, pady=pdNum,columnspan = columnspanNum)
+
+    def setPlace(self,xPos,yPos):
+        self.entryVar.place(x=xPos,y=yPos)
 
     def getData(self):
         return self.entryVar.get()

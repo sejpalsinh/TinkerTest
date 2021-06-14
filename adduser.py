@@ -1,9 +1,13 @@
 from tkintercomponents import *
 tk_Root = Tk()
+tk_Root.maxsize(600,500)
+tk_Root.minsize(600,500)
 uncheckedImg = PhotoImage(file='images/uncheck.png')
 checkedImg = PhotoImage(file='images/checked.png')
+
 def addUser():
-    userTable.adduser(userIdEntry.getData(),userPassword.getData(),userPin.getData())
+    dataTuple = (userIdEntry.getData(),userPassword.getData(),userPin.getData())
+    userTable.addData(dataTuple)
     userIdEntry.clearInput()
     userPassword.clearInput()
     userPin.clearInput()
@@ -17,6 +21,6 @@ userPin.setGride(0,2,0)
 adduserBtn = Button(tk_Root, text = "Add User", command = addUser,bd=6)
 adduserBtn.grid(row=0,column=3, pady=0)
 
-userTable = CheckboxTable(tk_Root,["Id","Password","Pin"],uncheckedImg,checkedImg,1,0,0,4)
+userTable = CheckboxTable(tk_Root,["Id","Password","Pin"],uncheckedImg,checkedImg,20,30)
 
 tk_Root.mainloop()
