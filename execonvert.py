@@ -5,6 +5,6 @@ sys.argv.append('py2exe')
 
 setup(
     options = {'py2exe': {'bundle_files': 1, 'compressed': True}},
-    windows = [{'script': "tinkerdemo.py"}],
+    windows = [{'script': "framedemo.py"}],
     zipfile = None,
 )

@@ -1,5 +1,6 @@
 from tkinter import *
 from tkinter import ttk
+import tkinter as tk
 
 class Table:
     def __init__(self, root,headinglst,datalst=[], tableside='right', tableheading = "headings", colWidth=90):
@@ -106,4 +107,40 @@ class InputEntry:
 
     def getData(self):
         return self.entryVar.get()
+
+class CutomTable:
+    def __init__(self,root,headerslst):
+        self.thisFrame = PanedWindow(bg="red",height=100,width=100)
+        self.thisFrame.pack(fill=BOTH, expand=1)
+        for headCount in range(len(headerslst)):
+            tk.Label(self.thisFrame, text=headerslst[headCount], anchor="w").grid(row=0, column=headCount, sticky="ew")
+        self.numberOfRecords = 0
+
+    def addRecord(self,recordData):
+        self.numberOfRecords += 1
+        recordData.setLocation(self.numberOfRecords)
+
+    def getRecordCount(self):
+        return self.numberOfRecords
+
+    def getFrame(self):
+        return self.thisFrame
+
+class CustomData:
+    def __init__(self,root,isChecked,userId,userPass,userPin):
+        self.checkBox = tk.Checkbutton(root, onvalue=True, offvalue=False)
+        if isChecked:
+            self.checkBox.selct()
+        else:
+            self.checkBox.deselect()
+        self.idLabel = tk.Label(root, text=userId, anchor="w")
+        self.passLabel = tk.Label(root, text=userPass, anchor="w")
+        self.pinLabel = tk.Label(root, text=userPin, anchor="w")
+
+    def setLocation(self,xPos):
+        self.checkBox.grid(row=xPos, column=0, sticky="ew")
+        self.idLabel.grid(row=xPos, column=1, sticky="ew")
+        self.passLabel.grid(row=xPos, column=2, sticky="ew")
+        self.pinLabel.grid(row=xPos, column=3, sticky="ew")
+
 
